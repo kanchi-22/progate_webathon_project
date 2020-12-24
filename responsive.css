@@ -1,0 +1,92 @@
+/*For Tablets*/
+@media (max-width: 1000px){
+    .home h1{
+        font-size:60px;
+    }
+    .about{
+        height:670px;
+    }
+    .my_photo{
+        height:250px;
+        width:250px;
+        padding-right:10px;
+    }
+    .intro{
+        font-size:18px;
+    }
+    .projects{
+        height:440px;
+    }
+    .projects-left{
+        font-size:24px;
+        /* float:left; */
+    }
+    .projects-right{
+        margin-top:40px;
+        padding:15px 20px;
+        width:200px;
+    }
+    .channel{
+        height:580px;
+    }
+    .channel_name{
+        font-size:20px;
+        width:170px;
+        padding-left:30px;
+        margin-left:70px;
+    }
+    .yt_intro{
+        /* float:left; */
+        font-size:20px;
+        color:#f3cec1;
+        padding-left:280px;
+        text-align:center;
+    }
+    .yt_link{
+        float:right;
+        padding-top:50px;
+        padding-right:400px;
+    }
+    
+    .yt_link a{
+        color:#f3cec1;
+        font-size:30px;
+        border-radius:4px; 
+        padding-bottom:10px;
+    }
+    .yt_logo{
+        height:250px;
+        width:250px;
+        align-items:center;
+        padding-left:1px;
+        /* margin-left:500px; */
+        /* float:left; */
+    }
+    .yt_logo:hover{
+        opacity:0.7;
+    }
+    .yt_details{
+        color:#f3cec1;
+        font-size:18px;
+        /* padding-right:2px; */
+        padding-top:80px;
+        text-align: center;
+        /* width:200px; */
+    }
+    .contact{
+        height:400px;
+    }
+    .mail a{
+        margin-left:200px;
+        margin-right:10px;
+    }
+    .linkedin a{
+        margin-left:10px;
+        margin-right:10px;
+    }
+}
+
+/*For Smartphones*/
+@media all and (max-width: 670px){
+
+}
